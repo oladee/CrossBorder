@@ -5,6 +5,7 @@
 body{
     padding: 30px 0px 0px 60px;
     background-color: #0F0E0E;
+    font-family: 'Darker Grotesque';
 }
 header{
     display: flex;
@@ -30,6 +31,33 @@ li a{
 .topField{
     display: flex;
     color: white;
+    margin-top: 4vh;
+}
+.topField .mainTalk{
+    padding-right: 30px;
+    
+}
+.topField h1{
+    font-size: 60px;
+    width: 100%;
+}
+.topField p{
+    font-size: 25px;
+    line-height: 37.97px;
+    width: 100%;
+}
+.topField button{
+    padding: 35px 170px;
+    color: #F5F5FD;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: #A3CD27;
+}
+.topField button:hover{
+    background-color: #819747;
+}
+h1 span{
+    color: #A3CD27;
 }
 .someButtons{
     display: flex;
@@ -49,5 +77,4 @@ li a{
     color: #A3CD27;
     background-color: #1E1E1E;
     font-size: 1.2em;
-
 }
