@@ -6,6 +6,7 @@ body{
     padding: 30px 0px 0px 60px;
     background-color: #0F0E0E;
     font-family: 'Darker Grotesque';
+    color: #F5F5FD;
 }
 header{
     display: flex;
@@ -32,6 +33,7 @@ li a{
     display: flex;
     color: white;
     margin-top: 4vh;
+    height: 100vh;
 }
 .topField .mainTalk{
     padding-right: 30px;
@@ -42,9 +44,9 @@ li a{
     width: 100%;
 }
 .topField p{
-    font-size: 25px;
+    font-size: 28px;
     line-height: 37.97px;
-    width: 100%;
+    padding-top: 10px;
 }
 .topField button{
     padding: 35px 170px;
@@ -66,15 +68,17 @@ h1 span{
     justify-content: space-around;
     width: 20%;
 }
+.Login, .getStart{
+    background-color: #1E1E1E;
+}
 .getStart{
     padding: 20px;
     font-size: 1.2em;
     color: white;
-    background-color: #1E1E1E;
     border: 1px solid #A3CD27;
 }
 .Login{
     color: #A3CD27;
-    background-color: #1E1E1E;
+
     font-size: 1.2em;
 }
