@@ -3,13 +3,13 @@
     padding: 0;
 }
 body{
-    padding: 30px;
-    background-color: #1E1E1E;
+    padding: 30px 0px 0px 60px;
+    background-color: #0F0E0E;
 }
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
 }
 .logo h1{
@@ -26,4 +26,28 @@ ul li{
 li a{
     text-decoration: none;
     color: white;
+}
+.topField{
+    display: flex;
+    color: white;
+}
+.someButtons{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+    width: 20%;
+}
+.getStart{
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #1E1E1E;
+    border: 1px solid #A3CD27;
+}
+.Login{
+    color: #A3CD27;
+    background-color: #1E1E1E;
+    font-size: 1.2em;
+
 }
