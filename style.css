@@ -82,8 +82,13 @@ h1 span, button span{
 }
 .Login{
     color: #A3CD27;
-
     font-size: 1.2em;
+}
+.part2{
+    display: flex;
+}
+.article{
+    
 }
 .butnBelow{
     position: relative;
@@ -99,6 +104,13 @@ h1 span, button span{
     margin-top: -15px;
     font-size: 12px;
     color: #F5F5FD;
-    padding: 1.8em 9em;
+    padding: 1.7em 9em 1.7em 8em;
     border: 1px solid #A3CD27;
 }
+.butnBelow button:active{
+    transform: translateY(15px) translateX(15.5px);
+}
+.butnBelow button:focus{
+    border: none;
+}
+
