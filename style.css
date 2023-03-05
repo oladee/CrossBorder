@@ -61,7 +61,7 @@ section{
 .topField button:hover{
     background-color: #819747;
 }
-h1 span, button span{
+h1 span, button span, .article h2{
     color: #A3CD27;
 }
 .someButtons{
@@ -86,23 +86,33 @@ h1 span, button span{
 }
 .part2{
     display: flex;
+    padding-right: 40px;
 }
 .article{
-    
+    padding: 170px 20px 0px 0px;
+}
+.article h2{
+    font-size: 50px;
+}
+.article p{
+    font-size: 19px;
+    width: 87%;
+    line-height: 30.97px;
+    padding-top: 10px;
 }
 .butnBelow{
     position: relative;
     margin-top: 5em;
     left: 15px;
     border: 1px solid #A3CD27;
-    width: 18em;
+    width: 23em;
     padding-bottom: 1em;
 }
 .butnBelow button{
     background-color: #0F0E0E;
     margin-left: -15px;
     margin-top: -15px;
-    font-size: 12px;
+    font-size: 16px;
     color: #F5F5FD;
     padding: 1.7em 9em 1.7em 8em;
     border: 1px solid #A3CD27;
