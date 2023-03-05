@@ -141,6 +141,8 @@ h1 span, button span, .article h2{
 }
 .writeUp h5{
     margin: 5px 0px;
+    font-size: 12px;
+    font-weight: 700;
 }
 .writeUp p{
     font-size: 8px;
