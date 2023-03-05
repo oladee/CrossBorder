@@ -72,10 +72,10 @@ h1 span, button span, .article h2{
     width: 20%;
 }
 .Login, .getStart{
-    background-color: #1E1E1E;
+    background-color: #0F0E0E;
 }
 .getStart{
-    padding: 20px;
+    padding: 0.65em 2em;
     font-size: 1.2em;
     color: white;
     border: 1px solid #A3CD27;
@@ -84,7 +84,7 @@ h1 span, button span, .article h2{
     color: #A3CD27;
     font-size: 1.2em;
 }
-.Logistics{
+#Logistics{
     display: flex;
     padding-right: 40px;
 }
