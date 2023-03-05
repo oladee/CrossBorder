@@ -147,4 +147,18 @@ h1 span, button span, .article h2{
 .writeUp p{
     font-size: 8px;
 }
-
+.grey{
+    background-color: #E8F9EE;
+    display: flex;
+    justify-content: center;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.green{
+    background-color: #69870E;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
