@@ -123,4 +123,13 @@ h1 span, button span, .article h2{
 .butnBelow button:focus{
     border: none;
 }
+.asideSection{
+    position: relative;
+    bottom: 210px;
+    left: 215px;
+    width: 280px;
+    height: 205px;
+    border-radius: 3px;
+    background-color: black;
+}
 
