@@ -129,7 +129,7 @@ h1 span, button span, .article h2{
 
 .asideSection{
     position: relative;
-    bottom: 230px;
+    bottom: 232px;
     left: 195px;
     width: 280px;
     height: 205px;
@@ -151,10 +151,15 @@ h1 span, button span, .article h2{
 .writeUp p{
     font-size: 8px;
 }
+.aCoverForAll{
+    margin-top: 30px;
+}
 .address{
+    margin-top: 15px;
+}
+.address, .addressIcons{
     display: flex;
     gap: 15px;
-    margin-top: 15px;
 }
 .grey, .greenish{
     background-color: #D2F270;
