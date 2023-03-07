@@ -123,6 +123,10 @@ h1 span, button span, .article h2{
 .butnBelow button:focus{
     border: none;
 }
+.butnBelow button:focus:not(:focus-visible) {
+    border:  1px solid #A3CD27;
+    }
+
 .asideSection{
     position: relative;
     bottom: 230px;
