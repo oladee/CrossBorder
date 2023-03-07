@@ -129,10 +129,11 @@ h1 span, button span, .article h2{
 
 .asideSection{
     position: relative;
-    bottom: 232px;
-    left: 195px;
+    bottom: 235px;
+    left: 192px;
     width: 280px;
     height: 205px;
+    border: 2px solid #E0F998;
     border-radius: 8px;
     background-color: #FFFFFF;
     padding: 10px;
