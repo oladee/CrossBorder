@@ -118,7 +118,7 @@ h1 span, button span, .article h2{
     border: 1px solid #A3CD27;
 }
 .butnBelow button:active{
-    transform: translateY(15px) translateX(15.5px);
+    transform: translateY(15px) translateX(15.2px);
 }
 .butnBelow button:focus{
     border: none;
