@@ -156,21 +156,31 @@ h1 span, button span, .article h2{
     gap: 15px;
     margin-top: 15px;
 }
-.grey{
-    background-color: #E8F9EE;
+.grey, .greenish{
+    background-color: #D2F270;
     display: flex;
     justify-content: center;
     width:40px;
     height:40px;
     border-radius: 20px;
 }
+.grey{
+    background-color: #E8F9EE;
+}
+.green, .locationIcon img{
+    align-self: center;
+}
+
 .green{
     background-color: #69870E;
-    align-self: center;
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
 }
+.locationIcon img{
+    margin-top: 9px;
+    width: 19px;
+}
 .line{
-    margin-left: 20px;
+    margin-left: 20px; 
 }
